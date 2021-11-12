@@ -20,4 +20,9 @@ condition,
 matching
 Ordered matching.
 OAS-definition like
+    with rate-limiting extensions on OAS
 policy per path(s)
+resource server
+    endpoints
+        operations
++rate-limiting

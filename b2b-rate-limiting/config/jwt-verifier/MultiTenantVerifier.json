@@ -3,7 +3,7 @@
     "name": "Multi-Tenant JWT Verifier",
     "slug" : "multi_tenant_verifier",
     "allowedAudiences": [
-      "https://api.example.com/${authorization.token.claims.account_id}"
+      "https://api.example.com/${authorization.claims.account_id}"
     ],
     "allowedIssuers": [
       {
