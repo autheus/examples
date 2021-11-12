@@ -8,6 +8,16 @@
     },
     "apikeys" : [
         {"key" : "${request.ip_address}", "plan" : {"slug" : "ip_address_rp"}},
-        {"key" : "${request.device_id}", "plan" : {"slug" : "kyc_rp"}}
+        {"key" : "${request.path.regex("...")"}", "plan" : {"slug" : "kyc_rp"}}
+    ],
+    "targeting" : [
+        {"appliesTo" : "path...", extract parameters here with regex, path templates}
     ]
+
 }
+
+condition,
+matching
+Ordered matching.
+OAS-definition like
+policy per path(s)
