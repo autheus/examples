@@ -1,0 +1,7 @@
+{
+    "key" : "e85995a9-041b-4a14-aab1-9b775a189c0b",
+    "description" : "The account ID for a sample production account.",
+    "rateplan" : {
+        "slug" : "prod_account_rp"
+    }
+}

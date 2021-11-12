@@ -1,0 +1,12 @@
+{
+    "description" : "A RatePlan for an unauthenticated endpoint (such as password reset) to limit how many times a single user can call it.",
+    "name" : "User RatePlan",
+    "slug" : "user_rp",
+    "quota" : {
+        "limit" : 100,
+        "period" : "DAY"
+    },
+    "throttle" : {
+
+    }
+}

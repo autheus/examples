@@ -1,0 +1,20 @@
+{
+    "description" : "Policy used for JWT-authorized endpoints for multi-tenant SaaS APIs.",
+    "authorization" : {
+        "type" : "JWT",
+        "authenticator" : {
+            "slug" : "multi_tenant_verifier"
+        }
+    },
+    "apikeys" : [
+        {"key" : "${authorization.token.claims.tenant_id}"},
+        {"key" : "${authorization.token.claims.account_id}"},
+        {"key" : "${request.ip_address}", "plan" : {"slug" : "ip_address_rp"}}
+    ],
+    "onError" : {
+        "decision" : "DENY",
+        "usePlan" : {
+            "slug" : "default_tenant_rp"
+        }
+    }
+}

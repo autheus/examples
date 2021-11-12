@@ -1,0 +1,13 @@
+{
+    "description" : "",
+    "authorization" : {
+        "type" : "JWT",
+        "authenticator" : {
+            "slug" : "multi_tenant_verifier"
+        }
+    },
+    "apikeys" : [
+        {"key" : "${request.ip_address}", "plan" : {"slug" : "ip_address_rp"}},
+        {"key" : "${request.device_id}", "plan" : {"slug" : "kyc_rp"}}
+    ]
+}

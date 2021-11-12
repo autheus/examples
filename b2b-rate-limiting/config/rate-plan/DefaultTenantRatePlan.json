@@ -1,0 +1,11 @@
+{
+    "description" : "A RatePlan that defines the overall quota and traffic-shaping throttle configuration for a single SaaS tenant.",
+    "name" : "Default Tenant RatePlan",
+    "slug" : "default_tenant_rp",
+    "quota" : {
+
+    },
+    "throttle" : {
+
+    }
+}

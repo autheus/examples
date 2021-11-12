@@ -1,0 +1,11 @@
+{
+    "description" : "A RatePlan for an unauthenticated endpoint rate-limiting a single IP address accessing an API.",
+    "name" : "IP Address RatePlan",
+    "slug" : "ip_address_rp",
+    "quota" : {
+
+    },
+    "throttle" : {
+
+    }
+}

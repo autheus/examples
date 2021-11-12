@@ -1,0 +1,11 @@
+{
+    "description" : "A RatePlan for a single production account within a tenant.",
+    "name" : "Production Account RatePlan",
+    "slug" : "prod_account_rp",
+    "quota" : {
+
+    },
+    "throttle" : {
+
+    }
+}

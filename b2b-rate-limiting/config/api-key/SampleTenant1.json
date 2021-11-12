@@ -1,0 +1,7 @@
+{
+    "key" : "3cbbff57-8ea5-4254-9439-fbb0a08bcfbd",
+    "description" : "The tenant ID for an extreme CIAM customer.",
+    "rateplan" : {
+        "slug" : "ex_ciam_tenant_rp"
+    }
+}

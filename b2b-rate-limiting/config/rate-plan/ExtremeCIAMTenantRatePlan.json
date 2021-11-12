@@ -1,0 +1,11 @@
+{
+    "description" : "A RatePlan that defines the overall quota and traffic-shaping throttle configuration for a single SaaS tenant.",
+    "name" : "Extreme CIAM Tenant RatePlan",
+    "slug" : "ex_ciam_tenant_rp",
+    "quota" : {
+
+    },
+    "throttle" : {
+
+    }
+}

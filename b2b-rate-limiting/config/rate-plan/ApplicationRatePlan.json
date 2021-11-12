@@ -1,0 +1,11 @@
+{
+    "description" : "A RatePlan limiting how many requests a single application can make to the API.",
+    "name" : "Application RatePlan",
+    "slug" : "application_rp",
+    "quota" : {
+
+    },
+    "throttle" : {
+
+    }
+}

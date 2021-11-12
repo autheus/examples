@@ -1,0 +1,11 @@
+{
+    "description" : "A RatePlan that defines the overall quota and traffic-shaping throttle configuration for a single SaaS tenant.",
+    "name" : "Workforce Tenant RatePlan",
+    "slug" : "workforce_tenant_rp",
+    "quota" : {
+
+    },
+    "throttle" : {
+
+    }
+}

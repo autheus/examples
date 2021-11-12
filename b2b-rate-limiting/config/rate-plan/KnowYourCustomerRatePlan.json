@@ -1,0 +1,11 @@
+{
+    "description" : "A RatePlan controlling how many high cost transactions a single device can make.",
+    "name" : "Know Your Customer RatePlan",
+    "slug" : "kyc_rp",
+    "quota" : {
+
+    },
+    "throttle" : {
+
+    }
+}
