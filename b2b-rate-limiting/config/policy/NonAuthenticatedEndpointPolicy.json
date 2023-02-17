@@ -1,5 +1,5 @@
 {
-    "name" : "Unuthenticated Endpoint Policy",
+    "name" : "Unauthenticated Endpoint Policy",
     "description" : "Policy used for unauthenticated endpoints for multi-tenant SaaS APIs.",
     "apikeys" : [
         {"key" : "${parameters.account_id}"},
