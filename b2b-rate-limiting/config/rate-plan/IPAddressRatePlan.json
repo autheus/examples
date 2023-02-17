@@ -3,9 +3,12 @@
     "name" : "IP Address RatePlan",
     "slug" : "ip_address_rp",
     "quota" : {
-
+		"period" : "DAY",
+		"limit" : 1000
     },
     "throttle" : {
-
+		"period" : "MINUTE",
+		"rate" : 10,
+		"burst" : 20
     }
 }

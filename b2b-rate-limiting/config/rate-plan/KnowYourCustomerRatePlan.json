@@ -3,9 +3,12 @@
     "name" : "Know Your Customer RatePlan",
     "slug" : "kyc_rp",
     "quota" : {
-
+        "limit" : 10,
+        "period" : "MONTH"
     },
     "throttle" : {
-
+        "period" : "HOUR",
+        "rate" : 3,
+        "burst" : 6
     }
 }

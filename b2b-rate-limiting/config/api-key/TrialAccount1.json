@@ -1,0 +1,7 @@
+{
+    "key" : "4b47b301-b786-4e1f-9301-a81d987f6320",
+    "description" : "The account ID for a sample trial account.",
+    "rateplan" : {
+        "slug" : "trial_account_rp"
+    }
+}

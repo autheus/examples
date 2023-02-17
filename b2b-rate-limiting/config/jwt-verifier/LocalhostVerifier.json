@@ -1,0 +1,9 @@
+{
+    "name": "localhost",
+    "allowedIssuers": [
+        {
+            "value": "http://localhost:8080/{{accountId}}",
+            "jwks": "http://localhost:8080/jwks"
+        }
+    ]
+}

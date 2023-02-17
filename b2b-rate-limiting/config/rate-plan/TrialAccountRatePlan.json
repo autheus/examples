@@ -1,0 +1,14 @@
+{
+    "description" : "A RatePlan for a single trial account within a tenant.",
+    "name" : "Trial Account RatePlan",
+    "slug" : "trial_account_rp",
+    "quota" : {
+        "period" : "DAY",
+        "limit" : 1000
+    },
+    "throttle" : {
+        "period" : "SECOND",
+        "rate" : 10,
+        "burst" : 20
+    }
+}

@@ -7,9 +7,7 @@
     ],
     "allowedIssuers": [
       {
-        "jwks": {
-          "href": "https://auth.example.com/auth/${authorization.token.claims.account_id}/jwks"
-        },
+        "jwks": "https://auth.example.com/auth/${authorization.token.claims.account_id}/jwks",
         "value": "https://auth.example.com/auth/${authorization.token.claims.account_id}/as"
       }
     ]
