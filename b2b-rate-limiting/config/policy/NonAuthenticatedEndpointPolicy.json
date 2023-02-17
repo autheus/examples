@@ -3,7 +3,7 @@
     "description" : "Policy used for unauthenticated endpoints for multi-tenant SaaS APIs.",
     "apikeys" : [
         {"key" : "${parameters.account_id}"},
-        {"key" : "${request.ip_address}", "plan" : {"ref" : "ip_address_rp"}}
+        {"key" : "${request.ip_address}", "plan" : "ip_address_rp"}
     ],
     "onError" : {
         "decision" : "DENY",
